@@ -1,0 +1,4 @@
+runtime: custom
+env: flex
+
+# The Dockerfile should be present in the same directory
