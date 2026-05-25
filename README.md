@@ -1,8 +1,32 @@
-# mlops
- This project is a comprehensive end-to-end machine learning pipeline MLflow experiment tracking and model registry . The project involves selecting a dataset, training a machine learning model using TensorFlow, creating a robust model training pipeline, deploying the model, monitoring its performance, and following best practices in machine learning development.the project is an end-to-end machine learning solution designed to predict the likelihood of pet adoption based on various features.
-Overview
+# End-to-End MLOps Pipeline — Pet Adoption Prediction
 
- The project focuses on building a robust machine learning pipeline, deploying it as a web service, and monitoring its performance.
+A production-grade, end-to-end MLOps pipeline built with OOP Python, 
+MLflow, TensorFlow, Docker, and GCP Cloud Run.
+
+## Overview
+Predicts the likelihood of pet adoption based on shelter features. 
+Designed as a fully reproducible MLOps system covering data ingestion 
+through live model serving with automated CI/CD.
+
+## Key Features
+- **MLflow experiment tracking & model registry** — all runs logged, 
+  artifacts versioned, best model promoted via model registry
+- **OOP Python pipeline** — modular design using service-layer and 
+  factory patterns for preprocessing, feature engineering, and training
+- **TensorFlow model training** — neural network with GridSearchCV 
+  hyperparameter tuning and cross-validation
+- **Docker + Flask inference API** — containerized REST endpoint 
+  serving real-time predictions
+- **GCP Cloud Run deployment** — serverless, auto-scaling model serving 
+  with Google Cloud Logging
+- **CI/CD via GitHub Actions** — automated test, build, and deploy 
+  pipeline on every push
+- **Model validation** — validate_model.py and test_api.py for 
+  automated quality gates before deployment
+
+## Tech Stack
+Python (OOP) · TensorFlow · scikit-learn · MLflow · Flask · Docker · 
+GCP Cloud Run · GitHub Actions · pandas · NumPy
 Key Features
 
     Dataset: Pet adoption dataset containing features like pet type, breed, age, size, health, vaccination status, and adoption fee.
