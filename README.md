@@ -27,24 +27,6 @@ through live model serving with automated CI/CD.
 ## Tech Stack
 Python (OOP) · TensorFlow · scikit-learn · MLflow · Flask · Docker · 
 GCP Cloud Run · GitHub Actions · pandas · NumPy
-Key Features
-
-    Dataset: Pet adoption dataset containing features like pet type, breed, age, size, health, vaccination status, and adoption fee.
-    Data Preprocessing:
-        Handling missing values.
-        Normalization of numerical data (e.g., age, weight, adoption fee).
-        One-hot encoding for categorical features.
-    Feature Engineering:
-        Created additional features such as ShelterTimeCategory and HealthVaccStatus.
-    Model Development:
-        Developed a neural network and a Random Forest model.
-        Hyperparameter tuning using GridSearchCV.
-    Model Deployment:
-        Flask API serving a pre-trained Random Forest model.
-        Dockerized application deployed on Google Cloud Run.
-    Model Monitoring:
-        Integrated Google Cloud Logging for monitoring and debugging.
-        Automated CI/CD pipeline using GitHub Actions.
 
 Project Structure
 
@@ -94,11 +76,6 @@ Monitoring
     Google Cloud Logging tracks API requests and model performance.
     CI/CD pipeline ensures automated testing and deployment.
 
-Technologies Used
-
-    Languages: Python
-    Libraries: Flask, scikit-learn, pandas, joblib
-    Tools: Docker, Google Cloud Platform, GitHub Actions
 
 Future Enhancements
 
