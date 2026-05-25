@@ -1,5 +1,5 @@
 # mlops
- This project is a comprehensive end-to-end machine learning pipeline . The project involves selecting a dataset, training a machine learning model using TensorFlow, creating a robust model training pipeline, deploying the model, monitoring its performance, and following best practices in machine learning development.the project is an end-to-end machine learning solution designed to predict the likelihood of pet adoption based on various features.
+ This project is a comprehensive end-to-end machine learning pipeline MLflow experiment tracking and model registry . The project involves selecting a dataset, training a machine learning model using TensorFlow, creating a robust model training pipeline, deploying the model, monitoring its performance, and following best practices in machine learning development.the project is an end-to-end machine learning solution designed to predict the likelihood of pet adoption based on various features.
 Overview
 
  The project focuses on building a robust machine learning pipeline, deploying it as a web service, and monitoring its performance.
